@@ -27,7 +27,7 @@ else if(userNum >= 70 && userNum <= 79){
 }
 else if(userNum >= 60 && userNum <= 69){
     console.log("D");
-}else if(userNum >= 50 && userNum <= 59){
+}else if(userNum >= 0 && userNum <= 59){
     console.log("F");
 }else{
     console.log("삑~");
