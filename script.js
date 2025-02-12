@@ -16,19 +16,21 @@ else if(userNum % 2 === 1){
 }
 
 
-if(userNum >= 90){
+if(userNum >= 90 && userNum <= 100){
     console.log("A")
 }
-else if(userNum >= 80){
+else if(userNum >= 80 && userNum <= 89){
     console.log("B");
 }
-else if(userNum >= 70){
+else if(userNum >= 70 && userNum <= 79){
     console.log("C");
 }
-else if(userNum >= 60){
+else if(userNum >= 60 && userNum <= 69){
     console.log("D");
-}else{
+}else if(userNum >= 50 && userNum <= 59){
     console.log("F");
+}else{
+    console.log("삑~");
 }
 
 
