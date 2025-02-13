@@ -6,13 +6,13 @@ if(userNum === 0){
     console.log("제로");
 }
 
-else if(userNum % 2 === 0){
+else if(userNum < 0){
     //짝수
-    console.log("짝수");
+    console.log("음수");
 }
-else if(userNum % 2 === 1){
+else if(userNum > 0){
     //홀수
-    console.log("홀수");
+    console.log("양수");
 }
 
 
